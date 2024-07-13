@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* border: 5px solid red; */
+            height: 80px;
+             display: grid;
+             grid-template-columns: 150px 650px auto auto auto auto;
+             background-color: beige;
+             position: sticky;
+             top: 1px;
+             
+             
+        }
+        
+        img{
+            height: 100%;
+            width: 100%;
+        }
+
+        input{
+           height:40px ;
+            width: 90%;
+            margin: 25px;
+            /* border-radius: 15px; */
+        }
+
+        p{
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .parent{
+            /* border: 5px solid red; */
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .parent>div{
+            /* border: 4px solid dodgerblue; */
+            height: 150px;
+            width: 150px;
+            text-align: center;
+        }
+
+        .in{
+            /* border: 2px solid black; */
+            height: 40%;
+            width: 50%;
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+
+        .container2{
+            /* border: 5px solid red; */
+            width:100% ;
+            height: 200px;
+            /* position: sticky;
+            top: 1px; */
+        }
+        
+        .container3{
+            /* border: 5px solid red; */
+            display: flex;
+        }
+
+        .container3>div{
+            /* border: 4px solid dodgerblue; */
+            height: 300px;
+        }
+
+        .Products{
+            height: 400px;
+            width: 1000px;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+
+        .miniad{
+            height: 400px;
+            width: 300px;
+        }
+
+        .Products>div{
+            height: 300px;
+            width: 200px;
+            border: 1px solid lightgray;
+            text-align: center;
+            margin: 3px;
+        }
+
+        .pro{
+            /* border: 2px solid orange; */
+            height: 180px;
+            width: 180px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+ 
+         .container4{
+            /* border: 5px solid red; */
+            display: flex;
+            justify-content: space-around;
+         }
+
+         .container4>div{
+            border: 1px solid lightgray;
+            height: 420px;
+            width: 1000px;
+            text-align: center;
+            margin-left: 5px;
+         }
+
+         .pro2{
+            /* border: 1px solid lightgray; */
+            height: 300px;
+            width: 170px;
+            margin-top: 10px;
+            margin-left: 10px;
+         }
+
+         .container5{
+            /* border: 5px solid red; */
+            height: 500px;
+            display: grid;
+            grid-template-columns: 170px 170px 170px 170px auto auto;
+            background-color: black;
+            color: white;
+            margin-top: 2px;
+            
+        
+         }
+
+         .container5>div{
+            /* border: 4px solid dodgerblue; */
+            margin: 10px;
+            text-align: center;
+         }
+
+         .cp{
+            border-right: 1px solid lightgray;
+             }
+
+             .head{
+                color: lightslategray;
+             }
+    </style>
+</head>
+<body>
+    <!-- Section One -->
+    <div class="container">
+        <div>
+            <img src="fliplogo.svg" alt="">
+        </div>
+        <div>
+            <input type="search" name="" id="" placeholder="Search for Products, Brands and More">
+        </div>
+        <div>
+            <p>Login</p>
+        </div>
+        <div>
+            <p>Cart</p>
+        </div>
+        <div>
+      <p>Become a Seller</p>
+        </div>
+        <div>
+            <p>:</p>
+        </div>
+    </div>
+
+<!-- Section Two -->
+
+    <div class="parent">
+        <div>
+            <div class="in">
+        <img src="grocery1.webp" alt="">
+            </div>
+            <h3>Grocery</h3>
+        </div>
+        <div>
+            <div class="in"> <img src="mobile2.webp" alt=""> </div>
+            <h3>Mobiles</h3>
+        </div>
+        <div>
+            <div class="in">  <img src="fashion.jpeg" alt=""> </div>
+            <h3>Fashion</h3>
+        </div>
+        <div>
+            <div class="in">  <img src="electronics.jpeg" alt=""> </div>
+            <h3>Electronics</h3>
+        </div>
+        <div>
+            <div class="in">  <img src="furniture.jpeg" alt=""> </div>
+            <h3>Home & Furniture</h3>
+        </div>
+        <div>
+            <div class="in">  <img src="appliances.webp" alt=""> </div>
+            <h3>Appliances</h3>
+        </div>
+        <div>
+            <div class="in">  <img src="travel.webp" alt=""> </div>
+            <h3>Travel</h3>
+        </div>
+        <div>
+            <div class="in">  <img src="Toys.jpeg" alt=""> </div>
+            <h3>Beauty & Personal Care</h3>
+        </div>
+        <div>
+            <div class="in">  <img src="twowheeler.jpg" alt=""> </div>
+            <h3>Two Wheelers</h3>
+        </div>
+    </div>
+
+    <!-- Section Three -->
+     <div class="container2">
+        <img src="bigad.webp" alt="">
+     </div>
+
+     <!-- Section Four -->
+      <h1>Best of Electronics</h1>
+      <div class="container3">
+        <div class="Products">
+             <div>
+                <div class="pro">
+                    <img class="prod" src="pro1.jpg" alt="">
+                     
+                </div>
+                <p>Best Wireless Headphone</p>
+                <h4>From $1000</h4>
+             </div>
+             <div>
+                <div class="pro">
+                    <img class="prod"  src="pro2.webp" alt="">
+                </div>
+                <p>Fastrack Smartwatches</p>
+                <h4>From $800</h4>
+             </div>
+             <div>
+                <div class="pro">
+                    <img class="prod" src="pro3.webp" alt="">
+                </div>
+                <p>Top Selling Speakers</p>
+                <h4>From $500</h4>
+             </div>
+             <div>
+                <div class="pro">
+                    <img class="prod" src="pro4.webp" alt="">
+                </div>
+                <p>Top Selling Monitors</p>
+                <h4>From $8000 </h4>
+             </div>
+             <div>
+                <div class="pro">
+                    <img class="prod" src="pro5.webp" alt="">
+                </div>
+                <p>Top MirrorLess Cameras</p>
+                <h4>Shop Now</h4>
+             </div>
+        </div>
+        <div class="miniad">
+        <img src="flipads.webp" alt="">
+        </div>
+      </div>
+
+      <!-- Section Five -->
+      <h1>Beauty, Food, Toys & More</h1>
+       <div class="container4">
+        <div>
+<div class="pro2">
+    <img src="pro11.webp" alt="">
+</div>
+<p>Top Selling Stationary</p>
+<h4>From $100</h4>
+        </div>
+        <div>
+            <div class="pro2">
+                <img src="pro12.webp" alt="">
+            </div>
+            <p>Best of Action Toys</p>
+            <h4>Upto 40% off</h4>
+        </div>
+        <div>
+            <div class="pro2">
+                <img src="pro13.webp" alt="">
+            </div>
+            <p>Coffee Powder</p>
+            <h4>Upto 30% off</h4>
+        </div>
+        <div>
+            <div class="pro2">
+                <img src="pro14.webp" alt="">
+            </div>
+            <p>Gym Equipments</p>
+            <h4>Upto 50% off</h4>
+        </div>
+        <div>
+            <div class="pro2">
+                <img src="pro15.webp" alt="">
+            </div>
+            <p>Guitar's</p>
+            <h4>Upto 70% off</h4>
+        </div>
+        <div>
+            <div class="pro2">
+                <img src="pro16.webp" alt="">
+            </div>
+            <p>Self development books</p>
+            <h4>From $200</h4>
+        </div>
+       </div>
+       <!-- Section Six -->
+        <div class="container5">
+            <div>
+                <h4 class="head">ABOUT</h4>
+                <p>Contact Us</p>
+                <p>About Us</p>
+                <p>Careers</p>
+                <p>Flipkart Stories</p>
+                <p>Press</p>
+                <p>Corporate Information</p>
+            </div>
+            <div>
+                <h4 class="head">GROUP COMPANIES</h4>
+                <p>Myntra</p>
+                <p>Shopsy</p>
+                <p>Cleartrip</p>
+            </div>
+            <div>
+                <h4 class="head">HELP</h4>
+                <p>Payments</p>
+                <p>Shipping</p>
+                <p>Cancellation & Returns</p>
+                <p>FAQ</p>
+                <p>Report Infringement</p>
+            </div>
+            <div class="cp">
+                <h4 class="head" >CONSUMER POLICY</h4>
+                <p>Cancellation & Returns</p>
+                <p>Terms of Use</p>
+                <p>Security</p>
+                <p>Privacy</p>
+                <p>Sitemap</p>
+                <p>Grievance Redressal</p>
+                <p>EPR Compliance</p>
+            </div>
+            <div>
+                <h4 class="head" >Mail Us: </h4>
+                <p>Flipkart Internet Private Limited,
+                    Buildings Alyssa, Begonia & Clove Embassy Tech Village, Outer Ring Road, Devarabeesanahalli Village, Bengaluru, 560103,
+                    Karnataka, India</p>
+            </div>
+            <div>
+                <h4 class="head">Registered Office Address:</h4>
+                <p>Flipkart Internet Private Limited,
+                    Buildings Alyssa, Begonia &
+                    Clove Embassy Tech Village,
+                    Outer Ring Road, Devarabeesanahalli Village, Bengaluru, 560103, Karnataka, India
+                    CIN: U51109KA2012PTC066107
+                    Telephone: 044-45614700/044-67415800</p>
+            </div>
+        </div>
+</body> 
+</html>
